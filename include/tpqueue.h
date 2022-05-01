@@ -6,8 +6,8 @@ class TPQueue {
  private:
     struct ITEM {
         T value;
-        ITEM* prev;
         ITEM* next;
+        ITEM* prev; 
     };
     ITEM* head, * tail;
     TPQueue::ITEM* create(const T& value) {
