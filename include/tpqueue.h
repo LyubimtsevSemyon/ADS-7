@@ -59,7 +59,7 @@ class TPQueue {
     }
 };
 struct SYM {
-  int prior;
   char ch;
+  int prior;
 };
 #endif  // INCLUDE_TPQUEUE_H_
